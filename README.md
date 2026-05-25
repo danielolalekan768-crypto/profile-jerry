@@ -4,21 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Courses</title>
+    <title>Student Profile</title>
   </head>
   <body>
     <div class="container">
-      <h1>Courses This Semester</h1>
-      <ul class="course-list">
-        <li>COS102 — Problem Solving</li>
-        <li>GST112 — Nigerian Peoples and Culture</li>
-        <li>LAG-COS104 — Introduction to Web Design and Development</li>
-        <li>LAG-COS106 — Introduction to Algorithms and Data Structures</li>
-        <li>MTH102 — Elementary Mathematics II</li>
-        <li>MTH103 — Elementary Mathematics III</li>
-        <li>PHY-CM102 — General Physics II</li>
-        <li>PHY-CM108 — General Practical Physics II</li>
-        <li>STA112 — Probability I</li>
+      <h1>PROFILE</h1>
+      <img src="profile.png" alt="Profile Picture" class="profile-pic" />
+      <div class="info">
+        <p><strong>Name:</strong> Ogbegun Jeremiah Femi</p>
+        <p><strong>Matric Number:</strong> 252609051</p>
+        <div class="about">
+          <h3>About Me</h3>
+          <p class="profile-text">
+            I am a Data Science student at the University of Lagos with a strong
+            passion for technology and web development. I enjoy exploring
+            programming and continuously developing my computer and technical
+            skills.
+          </p>
+        </div>
+      </div>
+      <a href="courses.html" class="btn">View Courses</a>
+    </div>
+  </body>
+</html>        <li>STA112 — Probability I</li>
       </ul>
       <a href="profile.html" class="btn">Back to Profile</a>
     </div>
